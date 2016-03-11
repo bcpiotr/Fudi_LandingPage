@@ -1,0 +1,66 @@
+.wrapperReviews {
+  width: 100%;
+  height: 0;
+  // padding-bottom: 20%;
+  padding-bottom: percentage(460px/1600px);
+
+  // background-color: #4A3949;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-height: 460px;
+  background-image: url('../img/reviews_background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  // padding-top: 5%;
+  // padding-bottom: 5%;
+  // border: 1px solid red;
+}
+
+.flexReviews {
+    // display: flex;
+    // flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    // position: relative;
+    // align-items: center;
+}
+
+    .flexReviews .photo {
+      // position: absolute;
+      // left: 50%;
+      // transform: translateX(-50%);
+      width: 15%;
+      height: 0;
+      padding-bottom: 15%;
+      border-radius: 50%;
+      background-image: url(../img/profile1.jpg);
+      background-size: 100%;
+      top: 0; left: 0; bottom: 0; right: 0;
+      margin: auto;
+      margin-top: 2%;
+    }
+
+    .flexReviews .review {
+      margin-top: 2%;
+      // position: absolute;
+      // left: 50%;
+      // transform: translateX(-50%);
+      // display: flex;
+    }
+
+    .flexReviews .counter {
+      // border: 1px solid green;
+      margin-top: 2%;
+      text-align: center;
+    }
+
+    .flexReviews .counter div {
+      width: 10px;
+      height: 10px;
+      border: 1px solid black;
+      display: inline-block;
+      border-radius: 50%;
+    }

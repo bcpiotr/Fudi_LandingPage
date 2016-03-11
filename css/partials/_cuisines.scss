@@ -1,0 +1,70 @@
+.wrapperCuisines {
+  width: 100%;
+  height: 0;
+  // padding-bottom: 20%;
+  // padding-bottom: percentage(460px/1600px);
+
+  // background-color: #4A3949;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  // max-height: 450px;
+  // background-image: url('../img/reviews_background.png');
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: 100% auto;
+  // padding-top: 5%;
+  // padding-bottom: 5%;
+  // border: 1px solid red;
+}
+
+.flexCuisines {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid red;
+    // position: relative;
+    // align-items: center;
+}
+
+.cuisine {
+  width: 20%;
+  min-width: 320px;
+
+  padding-bottom: percentage(320px/225px)*0.2;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+#italian {
+    background-image: url('../img/italian.png');
+}
+#indian {
+    background-image: url('../img/indian.png');
+}
+#french {
+    background-image: url('../img/french.png');
+}
+#steakhouse {
+    background-image: url('../img/steakhouse.png');
+}
+#seafood {
+    background-image: url('../img/seafood.png');
+}
+#sushi {
+    background-image: url('../img/sushi.png');
+}
+#mexican {
+    background-image: url('../img/mexican.png');
+}
+#chinese {
+    background-image: url('../img/chinese.png');
+}
+#pizza {
+    background-image: url('../img/pizza.png');
+}
+#american {
+    background-image: url('../img/american.png');
+}
