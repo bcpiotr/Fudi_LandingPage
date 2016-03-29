@@ -1,0 +1,33 @@
+.wrapperFooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.flexFooter {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    width: 100%;
+    justify-content: center;
+    // position: relative;
+    // align-items: center;
+}
+
+.footer {
+  width: 20%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.footer p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer .small {
+  font-size: 20px;
+  color: gray;
+}
